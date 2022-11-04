@@ -1,0 +1,182 @@
+@media screen and (max-width: 768px) {
+
+    .ancho_menor {
+        max-width: 95%;
+        margin: 0 auto;
+        /* border: 1px blue solid; */
+      }
+    .cabecera_abajo ul {
+        column-gap: 110px;
+    }
+
+    .Seccion1 article {
+        height: 700px;
+    }
+
+    .Seccion2 article p {
+        line-height: 30px;
+        font-size: 15px;
+        margin-right: 0px;
+      }
+    
+    .Seccion2 article {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-between;
+        column-gap: 150px;
+        /* border: 1px red solid; */
+
+        margin-bottom: 30px;
+      }
+    
+      .Seccion2 article h2 {
+        margin-top: 30px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+
+      .Seccion3 article {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        column-gap: 10px;
+        /* border: 1px red solid; */
+        font-family: "Arvo", serif;
+      }
+
+      .Seccion3 h2 {
+        color: #353635;
+        font-family: "Arvo", serif;
+        text-align: center;
+        font-size: 22px;
+        padding-top: 35px;
+        padding-bottom: 60px;
+      }
+      .Seccion3 article figure {
+        display: block;
+        height: 100%;
+        margin-bottom: 40px;
+      }
+
+      .Seccion4 {
+        margin-top: 25px;
+        padding-left: 0px;
+        padding-right: 0px;
+        /* border: 1px red solid; */
+        font-family: "Arvo", serif;
+      
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        column-gap: 0px;
+        row-gap: 25px;
+        /* border: 1px red solid; */
+      }
+
+      .Seccion4 article figure {
+        margin-top: 25px;
+        border-radius: 50%;
+        margin-bottom: 50px;
+        overflow: hidden;
+      }
+      .Seccion4 article figure img {
+        border: 10px white solid;
+      
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: stretch;
+      
+        border-radius: 50%;
+        width: 230px;
+        height: 230px;
+      
+        transform: scale(1);
+        transition: all 1s;
+      }
+
+      .Seccion4 article h2 {
+        color: #353635;
+        margin-bottom: 70px;
+      }
+
+      .Seccion4 article p {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 50px;
+        color: #353635;
+        max-width: 100%;
+        font-size: 15px;
+        line-height: 25px;
+      }
+
+      .Seccion4 article a {
+        text-decoration: none;
+        display: inline;
+      
+        border: 1px #ff3281 solid;
+      
+        padding: 20px 35px 20px 35px;
+        border-radius: 10px;
+        background-color: #ff3281;
+        color: #fcfdfd;
+        margin-bottom: 50px;
+      
+        transition: all 0.5s;
+      }
+
+      .Seccion5 h1 {
+        text-align: center;
+        padding-top: 35px;
+        color: #353635;
+      
+        margin-bottom: 50px;
+      }
+
+      .Seccion5 .imagenes {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        max-width: 100%;
+      }
+
+      .Seccion5 .columna_izquierda {
+        max-width: 100%;
+      }
+
+      .Seccion5 .columna_derecha {
+        max-width: 100%;
+      }
+
+      footer div {
+        display:flex;
+        flex-direction:column;
+        flex-wrap:nowrap;
+        justify-content:center;
+        align-items:center;
+        align-content:stretch;
+        
+        border-radius: 50%;
+        width: 35px;
+        height: 35px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+        position: absolute;
+        left: 94%;
+        top: 80%;
+    }
+
+      
+}
